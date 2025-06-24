@@ -1,0 +1,8 @@
+services:
+  weblate:
+    ports:
+      - 80:8080
+    environment:
+      WEBLATE_SITE_DOMAIN: weblate.pressf.gg
+      WEBLATE_ADMIN_EMAIL: support@pressf.gg
+      WEBLATE_ADMIN_PASSWORD: MeliloMilo12_Lilo
